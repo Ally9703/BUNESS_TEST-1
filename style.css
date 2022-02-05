@@ -1,0 +1,257 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.header_section1 {
+  display: flex;
+  margin: 30px;
+  margin-left: 50px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+}
+.header_p {
+  margin-right: 200px;
+}
+.header_i {
+  margin-top: 20px;
+}
+.header_a {
+  margin-left: 410px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header_a a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: rgb(16, 16, 179);
+  color: white;
+  font-size: 1.1em;
+}
+.header_a a:hover {
+  background-color: black;
+  border: black;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.empty {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* HEADER SECTION 2 */
+.header_section2 {
+  display: flex;
+  margin: 40px;
+  /* border: 1px solid rgb(16, 16, 179); */
+}
+.header_logo {
+  margin-right: 150px;
+}
+.header_localisation {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.header_p1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-right: 1px solid rgb(214, 208, 208);
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  height: 65px;
+}
+.header_telephone {
+  margin-top: 20px;
+}
+.header_p2 {
+  margin-left: 10px;
+  margin-top: 5px;
+  border-right: 1px solid rgb(214, 208, 208);
+  padding-right: 8px;
+  height: 65px;
+}
+.header_horloge {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.header_p3 {
+  margin-top: 10px;
+}
+
+/***********************************   NAV    **************************************/
+nav ul {
+  display: inline;
+  font-family: Arial;
+  font-size: 0.9em;
+  border-top: 1px solid rgb(214, 208, 208);
+  padding: 6px;
+}
+
+a {
+  margin-left: 1px;
+  color: rgb(29, 54, 46);
+}
+nav ul li {
+  display: inline;
+  margin-left: 30px;
+  font-size: 0.9em;
+}
+.link1 {
+  display: none;
+}
+.link2 {
+  display: none;
+}
+
+/* *************   body_section****************** */
+
+.body_section {
+  background-image: url(img/maison.jpg);
+  height: 100%;
+  padding: 200px;
+  margin-top: 25px;
+  /* border: 1px solid red; */
+}
+.body_section h1 {
+  font-size: 4em;
+  font-family: Arial;
+}
+.body_section p {
+  font-size: 1.5em;
+  font-family: Arial;
+  font-weight: bolder;
+  color: rgb(8, 2, 2);
+}
+/* ******************************** SECTION 2************************ */
+#section {
+  background-color: rgb(246, 252, 252);
+}
+.section2 {
+  margin-top: 30px;
+}
+
+.section2_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
+
+.sect1 {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 10px;
+  margin-right: 50px;
+}
+.sect2 {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 10px;
+}
+.sect1 ul li {
+  list-style: repeating-linear-gradient();
+}
+/* *******************************   FOOTER ************************ */
+.footer1 {
+  background-image: url(img/bg-image-4.jpg);
+  overflow: hidden;
+  color: white;
+  padding: 100px;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+.container_footer {
+  margin-top: 20px;
+}
+
+.container1 {
+  margin: 30px;
+  /* margin-top: 20px; */
+}
+
+.link {
+  border-bottom: 2px solid rgb(228, 223, 223);
+  padding-bottom: 30px;
+}
+
+li {
+  display: inline;
+  padding: 7px;
+  font-size: 0.9em;
+  /* margin-right: 10px; */
+  font-family: arial;
+}
+
+li a {
+  color: rgb(62, 122, 182);
+}
+
+ul span li {
+  margin-left: 1200px;
+}
+.footer2 {
+  margin: 30px;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 0;
+}
+.footer2 span {
+  color: rgb(62, 122, 182);
+  font-family: arial;
+  font-size: 0.9em;
+}
+.footer2 img {
+  margin-left: 420px;
+  border: 1px solid rgb(228, 223, 223);
+  padding: 10px;
+}
+.footer2 img {
+  /* display: none; */
+}
+.footer2 img:hover {
+  background-color: rgb(62, 122, 182);
+}
+/* ********************************* SECTION3 **************************** */
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black ; */
+  margin-top: 10px;
+}
+.sect3 {
+  margin-right: 200px;
+  padding: 20px;
+}
+
+@media all and (max-width: 991px) {
+  .header_section1 {
+    display: none;
+  }
+  .header_logo {
+    margin-left: 100px;
+  }
+  .header_localisation,
+  .header_p1,
+  .header_telephone,
+  .header_p2,
+  .header_horloge,
+  .header_p3 {
+    display: none;
+  }
+}
